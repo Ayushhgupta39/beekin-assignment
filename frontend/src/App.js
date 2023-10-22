@@ -1,10 +1,15 @@
-import { Heading } from "@chakra-ui/react";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Jobs, Login } from "./pages";
 
 function App() {
   return (
     <div className="App">
-      <Heading>Job Board</Heading>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/jobs" element={<Jobs />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
