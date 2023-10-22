@@ -68,7 +68,7 @@ Example Response:
   }
 ]
 ```
-2. - **Apply for a Job**
+2. **Apply for a Job**
 `POST /jobs/:id/apply`
 
 This endpoint allows users to apply for a job by storing their email in the job's applicants array. Replace :id with the ID of the job you want to apply for.

@@ -101,7 +101,7 @@ const JobCard = ({
   };
   return (
     <VStack
-      boxShadow={"2xl"}
+      boxShadow={"xl"}
       width={["full", "full", "30%", "30%"]}
       borderRadius={"2xl"}
     >
