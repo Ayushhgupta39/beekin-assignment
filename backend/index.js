@@ -14,21 +14,28 @@ connectDB();
 app.get("/jobs", async (req, res) => {
     try {
         const jobs = await Job.find();
-        res.send(jobs);
+        res.status(200).send(jobs);
     } catch (error) {
         res.status(500).json({ message: error.message })
     }
 })
 
-app.post("/jobs", async (req, res) => {
+app.post('/:id/apply', async (req, res) => {
     try {
-        const { title, company } = req.body;
-        const newJob = new Job({ title, company });
-        await newJob.save();
-        res.status(200).json({ message: "Job sent" });
+        const jobId = req.params.id;
+        const user = req.body.userEmail;
+
+        const job = await Job.findById(jobId);
+        if(!job) {
+            return res.status(404).json({ message: "Job not found" });
+        }
+
+        job.applicants.push(user);
+        await job.save();
+        res.status(200).json({ message: 'Application submitted successfully' });
     } catch (error) {
         console.log(error);
-        res.status(500).json({ message: "Job not sent"});
+        res.status(500).json({ message: error.message });
     }
 })
 

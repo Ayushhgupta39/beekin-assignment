@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Navbar } from "../components";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { Box, Flex } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import JobCard from "../components/JobCard";
 
 const Jobs = () => {
@@ -31,10 +31,18 @@ const Jobs = () => {
   return (
     <div>
       <Navbar user={user} />
-      <Flex flexWrap={"wrap"} justifyContent={"center"} gap={"2"} rowGap={"4"}>
+      <Flex
+        width={["full", "full", "", ""]}
+        flexDirection={["column", "column", "row", "row"]}
+        flexWrap={"wrap"}
+        justifyContent={"center"}
+        gap={"2"}
+        rowGap={"4"}
+      >
         {jobs.map((job) => (
           <JobCard
             key={job._id}
+            id={job._id}
             company={job.company}
             description={job.description}
             title={job.title}
@@ -43,6 +51,7 @@ const Jobs = () => {
             location={job.location}
             salary={job.salary}
             benefits={job.benefits}
+            applicants={job.applicants}
           />
         ))}
       </Flex>
