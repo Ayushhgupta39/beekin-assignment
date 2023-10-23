@@ -20,7 +20,7 @@ Beekin Job Portal is a powerful and user-friendly web application designed to si
 
 7. **Firebase Authentication**: Secure user authentication service enabling user signup and login using Google accounts, enhancing application security and user experience.
 
-8. **Heroku**: Cloud platform for deploying backend applications, providing scalable and accessible hosting, ensuring application availability over the internet.
+8. **Render**: Cloud platform for deploying backend applications, providing scalable and accessible hosting, ensuring application availability over the internet.
 
 9. **Vercel**: Platform for hosting frontend applications, offering automatic deployments and Git integration, ensuring smooth deployment and accessibility for users.
 
@@ -133,7 +133,7 @@ npm start
 
 ## Deployment
 
-The project is deployed on Vercel and can be accessed at [Live Demo](https://ayush-openinapp.vercel.app/).
+The project is deployed on Vercel and can be accessed at [Live Demo](https://beekin-assignment.vercel.app/).
 
 ## Contact
 For any inquiries, please contact at ayushgupta3902@gmail.com.

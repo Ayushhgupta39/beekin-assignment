@@ -1,5 +1,8 @@
 # Use an official Node.js runtime as the base image
-FROM node:14
+FROM node:16
+
+# We use nodemon to restart the server every time there's a change
+RUN npm install -g nodemon
 
 # Set the working directory in the container
 WORKDIR /app
