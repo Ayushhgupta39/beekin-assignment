@@ -1,8 +1,10 @@
 # Beekin Job Portal
 
 Beekin Job Portal is a powerful and user-friendly web application designed to simplify the job search and hiring process. It serves as a virtual gateway connecting job seekers and employers, offering a seamless experience for exploring job opportunities and managing applications efficiently.
-![landing page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/070a31b6-2127-47e3-bb7c-5a2ec0f26f08)
-![jobs page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/35b09b89-0a1d-4a38-b030-de6ac8c7d6ae)
+![landing page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/9def8141-586e-4314-a9a5-07db8b7bbcae)
+
+![jobs page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/53b0bcae-80a0-4631-9193-5806a560696b)
+
 
 ## Technologies Used
 
@@ -38,8 +40,10 @@ Beekin Job Portal is a powerful and user-friendly web application designed to si
 - **One-Tap Apply**: Apply for jobs effortlessly with a single click, streamlining the application process.
 
 - **Application Tracking**: Employers can manage and track job applications efficiently, ensuring a smooth recruitment process.
-  ![details model](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/a236d955-cbc8-41c2-a722-4827d533bfc9)
-  ![one-tap apply](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/f85ebf35-6641-4ca5-ae56-f99a0d0da8e2)
+  ![details page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/179d56fe-44a7-4d4c-997b-b3c2973f9872)
+
+  ![one-tap apply](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/4d772288-1591-4985-a79f-83df8cee9c5c)
+
 
 
 ## How It Works
