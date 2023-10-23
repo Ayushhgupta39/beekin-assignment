@@ -54,7 +54,7 @@ const JobCard = ({
       if (userEmail) {
         axios
           .post(
-            `http://localhost:8080/${id}/apply`,
+            `https://beekin-job-board.onrender.com/${id}/apply`,
             { userEmail },
             {
               headers: {

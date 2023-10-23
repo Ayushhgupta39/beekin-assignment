@@ -11,7 +11,7 @@ const Jobs = () => {
   const navigate = useNavigate();
 
   const fetchJobs = async () => {
-    const response = await axios.get("http://localhost:8080/jobs");
+    const response = await axios.get("https://beekin-job-board.onrender.com/jobs");
     console.log(response.data);
     setJobs(response.data);
   };
