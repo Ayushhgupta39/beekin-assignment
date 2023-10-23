@@ -1,6 +1,8 @@
 # Beekin Job Portal
 
 Beekin Job Portal is a powerful and user-friendly web application designed to simplify the job search and hiring process. It serves as a virtual gateway connecting job seekers and employers, offering a seamless experience for exploring job opportunities and managing applications efficiently.
+![landing page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/070a31b6-2127-47e3-bb7c-5a2ec0f26f08)
+![jobs page](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/35b09b89-0a1d-4a38-b030-de6ac8c7d6ae)
 
 ## Technologies Used
 
@@ -36,6 +38,9 @@ Beekin Job Portal is a powerful and user-friendly web application designed to si
 - **One-Tap Apply**: Apply for jobs effortlessly with a single click, streamlining the application process.
 
 - **Application Tracking**: Employers can manage and track job applications efficiently, ensuring a smooth recruitment process.
+  ![details model](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/a236d955-cbc8-41c2-a722-4827d533bfc9)
+  ![one-tap apply](https://github.com/Ayushhgupta39/beekin-assignment/assets/96309609/f85ebf35-6641-4ca5-ae56-f99a0d0da8e2)
+
 
 ## How It Works
 - **Frontend** : The frontend, built with React.js and Chakra UI, provides an intuitive user interface for job seekers and employers.
